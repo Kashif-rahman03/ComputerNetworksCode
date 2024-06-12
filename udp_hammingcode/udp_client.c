@@ -9,8 +9,7 @@
 
 #define SIZE 64
 
-int main()
-{
+int main(){
 	//creating client socket
 	int cs = socket(AF_INET, SOCK_DGRAM, 0);
 
